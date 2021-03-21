@@ -1,6 +1,6 @@
 FROM centos
 
-RUN tum install -y java
+RUN yum install -y java
 
 VOLUME /tmp
 ADD /target/spring-boot-web-0.0.1-SNAPSHOT.jar myapp.jar
